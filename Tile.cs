@@ -7,15 +7,6 @@ namespace _3d {
     class Tile {
         
         Shader shader;
-        static float size = 100.5f;
-
-        static float[] ys = {
-            new System.Random().Next(-1,1),
-            new System.Random().Next(-1,1),
-            new System.Random().Next(-1,1),
-            new System.Random().Next(-1,1),
-        };
-
         float[] vertices;
         uint[] indices;
         int ibo, vbo, vao;

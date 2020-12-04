@@ -40,13 +40,13 @@ namespace _3d {
         public static List<float> GetPositionedVertices(Vector3 position, List<float> currentVertices) {
             float[] verts = {
                 -1+position.X,-1+position.Y,-1+position.Z, 0,1,0, // 0
-                -1+position.X, 1+position.Y,-1+position.Z, 0,.5f,1, // 1
-                 1+position.X, 1+position.Y,-1+position.Z, 0,.5f,1, // 2
+                -1+position.X, 1+position.Y,-1+position.Z, 0,0,1, // 1
+                 1+position.X, 1+position.Y,-1+position.Z, 0,0,1, // 2
                  1+position.X,-1+position.Y,-1+position.Z, 0,1,0, // 3
 
                 -1+position.X,-1+position.Y, 1+position.Z, 0,1,0, // 4
-                -1+position.X, 1+position.Y, 1+position.Z, 0,.5f,1, // 5
-                 1+position.X, 1+position.Y, 1+position.Z, 0,.5f,1, // 6
+                -1+position.X, 1+position.Y, 1+position.Z, 0,0,1, // 5
+                 1+position.X, 1+position.Y, 1+position.Z, 0,0,1, // 6
                  1+position.X,-1+position.Y, 1+position.Z, 0,1,0, // 7
             };
 
